@@ -1,20 +1,10 @@
 
 
 $(function () {
-
-
-
   $('.main ul').hide();
-
   $('.menu').click(function() {
-    $('.files').slideUp(1000);
-    $(this).find('ul').show()
-
+    $('.files').slideUp(500);
+    $(this).find('.files').show()
    });
-
-
-
-
-
-
 });
+// $(this).find('ul').show()
